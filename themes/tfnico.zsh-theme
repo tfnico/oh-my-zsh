@@ -1,5 +1,3 @@
-source ~/prefs/git-completion.bash
-
 PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%~%{$fg_bold[blue]%}/%{$reset_color%}%{$fg[yellow]%}$(__git_ps1 "[%s]")$(git_prompt_info)%{$reset_color%}>'
 RPROMPT='%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} [%*]'
 
